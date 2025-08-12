@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Contraseñas seguras",
+    "file": "module1.html",
+    "description": "Aprende a crear y mantener contraseñas fuertes."
+  },
+  {
+    "id": 2,
+    "title": "Phishing",
+    "file": "module2.html",
+    "description": "Identifica y evita intentos de phishing."
+  }
+]

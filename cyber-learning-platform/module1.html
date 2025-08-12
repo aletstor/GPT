@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Módulo 1: Contraseñas seguras</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/modules.css">
+</head>
+<body>
+  <header>
+    <h1>Contraseñas seguras</h1>
+    <nav>
+      <a href="dashboard.html">Volver al panel</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Principios básicos</h2>
+      <p>Una contraseña segura debe ser larga, única y difícil de adivinar...</p>
+      <ul>
+        <li>Usa mínimo 12 caracteres.</li>
+        <li>Incluye letras mayúsculas, minúsculas, números y símbolos.</li>
+        <li>No reutilices contraseñas.</li>
+      </ul>
+      <p><em>[Ilustración de consejos de contraseñas]</em></p>
+    </section>
+
+    <section class="quiz">
+      <h3>Prueba tus conocimientos</h3>
+      <div id="quiz-container"></div>
+      <button id="submitQuiz">Enviar respuestas</button>
+    </section>
+  </main>
+
+  <script src="assets/js/quiz.js"></script>
+  <script>
+    const questions = [
+      {
+        question: "¿Cuál de las siguientes es una buena práctica de contraseñas?",
+        options: [
+          "Usar la misma contraseña para todo.",
+          "Compartirla con compañeros por si la pierdes.",
+          "Crear una contraseña larga y única."
+        ],
+        answer: 2
+      }
+    ];
+    loadQuiz(questions);
+  </script>
+</body>
+</html>
