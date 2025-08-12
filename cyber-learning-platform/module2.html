@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Módulo 2: Phishing</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/modules.css">
+</head>
+<body>
+  <header>
+    <h1>Phishing</h1>
+    <nav>
+      <a href="dashboard.html">Volver al panel</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>¿Qué es el phishing?</h2>
+      <p>El phishing es una técnica de ingeniería social que busca engañarte para obtener información sensible.</p>
+      <p>Aprende a identificar correos y sitios sospechosos antes de compartir tus datos.</p>
+    </section>
+
+    <section class="quiz">
+      <h3>Prueba tus conocimientos</h3>
+      <div id="quiz-container"></div>
+      <button id="submitQuiz">Enviar respuestas</button>
+    </section>
+  </main>
+
+  <script src="assets/js/quiz.js"></script>
+  <script>
+    const questions = [
+      {
+        question: "¿Cuál de las siguientes señales puede indicar un intento de phishing?",
+        options: [
+          "Correos con mensajes urgentes y enlaces sospechosos.",
+          "Correos de tu jefe con instrucciones claras.",
+          "Noticias de la empresa en la intranet oficial."
+        ],
+        answer: 0
+      }
+    ];
+    loadQuiz(questions);
+  </script>
+</body>
+</html>

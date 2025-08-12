@@ -1,0 +1,8 @@
+{
+  "name": "cyber-learning-platform",
+  "version": "1.0.0",
+  "description": "Static cybersecurity learning platform",
+  "scripts": {
+    "test": "echo 'No tests specified' && exit 0"
+  }
+}
